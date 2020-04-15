@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by andrSnie on 5.04.20 5:53
+  ~ Copyright (c) 2020. All rights reserved.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="angel.andrsnie.tttoe.MainActivity"
+    android:id="@+id/rellay">
+
+    <LinearLayout
+        android:id="@+id/linlayvert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linlayhor1"
+            style = "@style/linlayhorstyle">
+
+            <Button
+                android:id="@+id/butto1"
+                style = "@style/buttonstyle"/>
+
+            <View
+                android:id="@+id/viewbordervert1"
+                style = "@style/viewborderverstyle"/>
+
+            <Button
+                android:id="@+id/butto2"
+                style = "@style/buttonstyle"/>
+
+            <View
+                android:id="@+id/viewbordervert2"
+                style = "@style/viewborderverstyle"/>
+
+            <Button
+                android:id="@+id/butto3"
+                style = "@style/buttonstyle"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewborderhor1"
+            style = "@style/viewborderhorstyle"/>
+
+        <LinearLayout
+            android:id="@+id/linlayhor2"
+            style = "@style/linlayhorstyle">
+
+            <Button
+                android:id="@+id/butto4"
+                style = "@style/buttonstyle"/>
+
+            <View
+                android:id="@+id/viewbordervert3"
+                style = "@style/viewborderverstyle"/>
+
+            <Button
+                android:id="@+id/butto5"
+                style = "@style/buttonstyle"/>
+
+            <View
+                android:id="@+id/viewbordervert4"
+                style = "@style/viewborderverstyle"/>
+
+            <Button
+                android:id="@+id/butto6"
+                style = "@style/buttonstyle"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewborderhor2"
+            style="@style/viewborderhorstyle" />
+
+        <LinearLayout
+            android:id="@+id/linlayhor3"
+            style = "@style/linlayhorstyle">
+
+            <Button
+                android:id="@+id/butto7"
+                style = "@style/buttonstyle"/>
+
+            <View
+                android:id="@+id/viewbordervert5"
+                style = "@style/viewborderverstyle"/>
+
+            <Button
+                android:id="@+id/butto8"
+                style = "@style/buttonstyle"/>
+
+            <View
+                android:id="@+id/viewbordervert6"
+                style = "@style/viewborderverstyle"/>
+
+            <Button
+                android:id="@+id/butto9"
+                style = "@style/buttonstyle"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text = ""
+        android:textStyle = "bold"
+        android:textSize = "20sp"
+        android:textColor = "@android:color/white"
+
+        android:gravity="center"/>
+</RelativeLayout>
+
+    <!--for right size of Images
+<ImageButton
+            android:id="@+id/image"
+            android:layout_width = "0dp"
+            android:layout_weight = "1"
+            android:layout_height = "match_parent"
+            android:src="@drawable/o"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+            or may be
+<Button
+    android:id="@+id/image"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:icon="@drawable/o"
+    style="?android:attr/buttonBarButtonStyle"/>
+
+    :-)   -->

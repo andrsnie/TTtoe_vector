@@ -1,0 +1,38 @@
+<!--
+  ~ Created by andrSnie on 5.04.20 5:53
+  ~ Copyright (c) 2020. All rights reserved.
+  -->
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="linlayhorstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="buttonstyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="viewborderverstyle">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/darker_gray</item>/>
+    </style>
+
+    <style name="viewborderhorstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@android:color/darker_gray</item>/>
+    </style>
+</resources>

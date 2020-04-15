@@ -1,0 +1,21 @@
+<!--
+  ~ Created by andrSnie on 5.04.20 5:53
+  ~ Copyright (c) 2020. All rights reserved.
+  -->
+
+<resources>
+    <string name="app_name">TTtoe</string>
+
+    <string name="calm_down">Calm down! XXX - You have already won :-)</string>
+    <string name="good_shot">A good shot, but too late :-((( The game is long over :-) OOO - I\'m a winner!</string>
+    <string name="ooo_winner">Game is over! OOO - I\'m a winner!</string>
+    <string name="woodpecker">Don\'t sleep woodpecker. The game is already over! OOO - I\'m a winner!</string>
+    <string name="unbelievably">Yes!!!! Unbelievably! This is a doublet. The game is over! XXX - You\'re a winner!!!</string>
+    <string name="draw">Game is over. A draw!</string>
+    <string name="warning">You are a greedy hamster! According to the rules of the game, you can not press several cells at once. Now you have to start all over again :-(\nWhat are you waiting for? Reload the app!</string>
+
+    <string name="hi">Hi! I\'m Mr.OOO. Let\'s start the game!</string>
+    <string name="lets_continue">Here Mr.OOO. Let\'s continue!</string>
+    <string name="wow">Wow! It\'s my doublet. From now on, whatever you do, it will still be OOO</string>
+    <string name="twist">Twist or do not twist, but the game is all the same over :-(</string>
+</resources>
